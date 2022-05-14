@@ -8,4 +8,8 @@ const config: GatsbyConfig = {
   plugins: [],
 }
 
+module.exports = {
+  pathPrefix: "/samsite",
+}
+
 export default config
