@@ -17,4 +17,5 @@
 - [Part 0: Set Up Your Development Environment](https://www.gatsbyjs.com/docs/tutorial/part-0/) - ✅
 - [Part 1: Create and Deploy Your First Gatsby Site](https://www.gatsbyjs.com/docs/tutorial/part-1/) - ✅
 - [Part 2: Use and Style React Components](https://www.gatsbyjs.com/docs/tutorial/part-2/) - ✅
-- [Part 3: Add Features with Plugins](https://www.gatsbyjs.com/docs/tutorial/part-3/) - ...
+- [Part 3: Add Features with Plugins](https://www.gatsbyjs.com/docs/tutorial/part-3/) - ✅
+- [Part 4: Query for Data with GraphQL](https://www.gatsbyjs.com/docs/tutorial/part-4/) - ...

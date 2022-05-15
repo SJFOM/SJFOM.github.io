@@ -5,11 +5,15 @@ const config: GatsbyConfig = {
     title: `samsite`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
 
-module.exports = {
-  pathPrefix: "/samsite",
-}
+// exclude this for now, causes issues with image display
+// module.exports = {
+//   pathPrefix: "/samsite",
+// }
 
 export default config
