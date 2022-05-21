@@ -2,18 +2,21 @@ import type { GatsbyConfig } from "gatsby"
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `samsite`,
+    title: `My first Gatsby site!`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-source-filesystem",
+      options : {
+        name: "blog",
+        path: `${__dirname}/blog`,
+      }
+    }
   ],
+  // pathPrefix: "/samsite",
 }
-
-// exclude this for now, causes issues with image display
-// module.exports = {
-//   pathPrefix: "/samsite",
-// }
 
 export default config
