@@ -14,6 +14,26 @@ const config: GatsbyConfig = {
         name: "blog",
         path: `${__dirname}/blog`,
       }
+    },
+    "gatsby-remark-images",
+    {
+      resolve: "gatsby-plugin-mdx",
+      options : {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
+          },
+          {
+            resolve: "gatsby-remark-prismjs",
+          },
+          {
+            resolve: "gatsby-remark-autolink-headers",
+          }
+        ]
+      }
     }
   ],
   // pathPrefix: "/samsite",
